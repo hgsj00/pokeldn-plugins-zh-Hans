@@ -82,7 +82,7 @@
 
 | 项目 | 原因 | 计划 |
 | --- | --- | --- |
-| `scripts/check_language_pack.py`（官方） | 本机无 Python 3.13 与依赖，PyPI 被阻断 | CI（`.github/workflows/validate.yml`）执行 |
+| `scripts/check_language_pack.py`（官方） | 本机无 Python 3.13 与依赖，PyPI 被阻断 | 在装有 pokeldn 依赖的环境偶尔执行；CI 改用提交的英文/help 快照 |
 | 设置页语言下拉的视觉确认 | 系统禁止模拟输入，无法点击 | 手动检查一次 |
 | `.pokeplugin` 安装向导、风险页、签名 | 私钥未定 | 发布前执行 |
 | 0.65.2 客户端复测 | 本机只有 0.63.1 | 发版前复测 |
@@ -90,7 +90,7 @@
 ## 发布前必须补全
 
 - [ ] Ed25519 私钥生成与指纹记录（`--key`），包内 9 文件
-- [ ] `scripts/check_language_pack.py` 通过（CI）
+- [ ] `tools/check_upstream.py` 与 `tools/verify_package.py` 通过（CI）
 - [ ] 全新目录安装 → 选语言 → 重启 → 界面简体
 - [ ] 旧版覆盖升级保留启用状态与语言选择
 - [ ] `pokeldn-source.json` 的 SHA-256、大小、图标 URL 与实际包一致

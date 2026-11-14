@@ -23,20 +23,22 @@
 3. **增量翻译**：只处理变化条目；沿用 `docs/glossary.md` 的术语。
 4. **检查补充资源**：新功能里的模块消息、模板、工具选项是否可译；`messages`/`help` 的键
    是否被上游改掉（键是原文/工具 ID，改名即失效）。
-5. **校验**：
+5. **更新基准快照**：重新生成 `reference/strings.en.toml` 与 `reference/help-keys.json`
+   （`work/help_keys.py`），否则 CI 仍按旧版比对。
+6. **校验**：
    ```bash
    python tools/validate_pack.py language-pack --reference reference/strings.en.toml
    # 有完整环境时
    python scripts/check_language_pack.py language-pack
    ```
-6. **更新文档**：README 的版本/日期/对应 pokeldn 版本；`docs/validation.md` 记录本次检查；
+7. **更新文档**：README 的版本/日期/对应 pokeldn 版本；`docs/validation.md` 记录本次检查；
    `CHANGELOG.md` 写用户可见变化。
-7. **打包签名**（版本号必须递增）：
+8. **打包签名**（版本号必须递增）：
    ```bash
    python scripts/pack_plugin.py language-pack -o packages/pokeldn-zh-Hans-<版本>.pokeplugin --key <私钥>.pem
    ```
-8. **更新清单**：`pokeldn-source.json` 的版本、API、下载 URL、大小、SHA-256、图标 URL。
-9. **更新 `reference/upstream.json`**：pokeldn 版本/commit/日期、英文模板哈希、条目数、
+9. **更新清单**：`pokeldn-source.json` 的版本、API、下载 URL、大小、SHA-256、图标 URL。
+10. **更新 `reference/upstream.json`**：pokeldn 版本/commit/日期、英文模板哈希、条目数、
    包哈希、语言包版本。
 
 ## 版本纪律

@@ -11,9 +11,7 @@ permissions:
 jobs:
   language-pack:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
-    env:
-      POKELDN_REF: 2bee2a1e0209062f39de8458fbd12b2965391094   # reference/upstream.json
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262   # v4.4.0
         with:
@@ -23,36 +21,21 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Fetch the pinned pokeldn checkout
-        run: |
-          git clone --filter=blob:none https://github.com/Decryptu/pokeldn.git ../pokeldn
-          git -C ../pokeldn checkout "$POKELDN_REF"
-
-      - name: Install pokeldn's runtime dependencies (for the official checker)
-        run: |
-          cd ../pokeldn
-          python -m pip install --upgrade pip
-          # requirements.txt uses editable paths relative to the pokeldn checkout (./vendor/LDN).
-          python -m pip install -r requirements.txt
-
-      - name: English template still matches the checkout
-        run: python ../pokeldn/scripts/extract_strings.py --check
-
       - name: Offline pack checks (keys, placeholders, resources)
         run: python tools/validate_pack.py language-pack --reference reference/strings.en.toml
 
-      - name: Official checker (missing/unknown keys and tool help)
-        run: python ../pokeldn/scripts/check_language_pack.py language-pack
+      - name: Coverage against the committed English snapshot
+        run: python tools/check_upstream.py --pack language-pack --reference reference/strings.en.toml --help-keys reference/help-keys.json
 
-      - name: Package it the way the app does
+      - name: language-pack is generated from the kit
         run: |
-          python ../pokeldn/scripts/pack_plugin.py language-pack -o dist/pokeldn-zh-Hans.pokeplugin
-          python - <<'PY'
-          import zipfile
-          names = zipfile.ZipFile("dist/pokeldn-zh-Hans.pokeplugin").namelist()
-          assert "plugin.toml" in names and "strings.toml" in names, names
-          print(len(names), "files:", names)
-          PY
+          python tools/build_strings.py --kit translation-kit --out dist
+          for file in strings messages templates terms help; do
+            diff -u "language-pack/$file.toml" "dist/$file.toml"
+          done
 
-      - name: Coverage summary
+      - name: Package structure and signature
+        run: python tools/verify_package.py packages/pokeldn-zh-Hans-1.0.0.pokeplugin
+
+      - name: Translation status
         run: python tools/status.py --kit translation-kit --reference reference/strings.en.toml

@@ -374,8 +374,8 @@ $env:POKELDN_DATA = "$PWD\work\verify-data"
 - 更新 `CHANGELOG.md`。
 - 生成 `pokeldn-source.json`：`download`、`sha256`、`size`、`icon`。
 - 推送 `packages/` 与清单；验证 raw 链接可下载、SHA-256 一致。
-- CI：GitHub Actions（ubuntu + Python 3.13 + `pip install -r requirements.txt`）跑
-  `check_language_pack.py` 与打包校验，作为每次 PR 的门禁。
+- CI：GitHub Actions（ubuntu + Python 3.13，零第三方依赖）跑离线校验、与提交快照的覆盖比对、
+  kit 与语言包一致性、包结构与签名验证，作为每次 PR 的门禁。
 
 ---
 
@@ -399,12 +399,12 @@ $env:POKELDN_DATA = "$PWD\work\verify-data"
 | 事项 | 现状 | 影响 / 对策 |
 | --- | --- | --- |
 | Python | 系统 3.10；DSH 自带 3.12 | pokeldn 要求 3.13；本地只做 TOML 层工作 |
-| 依赖安装 | PyPI、raw.githubusercontent 均被阻断（仅 git 协议可用） | 无法 `pip install`；官方脚本留给 CI |
+| 依赖安装 | PyPI、raw.githubusercontent 均被阻断（仅 git 协议可用） | 无法 `pip install`；CI 改用零依赖快照校验 |
 | pokeldn 运行 | 本机已有安装版（路径略） | 可做界面观感检查，但不能跑源码校验 |
 | 兼容层 | `tools/pylib`（`tomllib` 垫片 + 第三方库占位） | **仅工具用**，不参与打包、不进入仓库发布物 |
 | 繁简转换 | 无 OpenCC wheel，改用其词典自实现 t2s | 结果已量化（§4.3），足够做种子 |
 
-因此本地流程是“TOML 校验 + 种子生成 + 人工审校”，最终门禁在 CI 或装有 3.13 依赖的机器上执行。
+因此本地流程是“TOML 校验 + 种子生成 + 人工审校”，最终门禁由 CI 的零依赖校验执行；官方脚本在装有 3.13 依赖的环境补充运行。
 
 ---
 
