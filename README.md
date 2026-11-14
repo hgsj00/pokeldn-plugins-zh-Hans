@@ -98,7 +98,7 @@ $env:POKELDN_PLUGINS = "$PWD\language-pack"
 
 ## 致谢
 
-- **梁圣**：在术语、用词与校对上的帮助。
+- **梁圣**：汉化自由的神
 - [jimmyorz](https://github.com/jimmyorz/pokeldn-plugins-zhTW)：繁體中文（台灣）語言包，
   本包的结构与语义参考都来自它。
 - [Decryptu](https://github.com/Decryptu/pokeldn)：pokeldn 本體与语言包机制。
