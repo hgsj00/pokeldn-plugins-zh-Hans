@@ -30,9 +30,10 @@ jobs:
 
       - name: Install pokeldn's runtime dependencies (for the official checker)
         run: |
+          cd ../pokeldn
           python -m pip install --upgrade pip
-          # The upstream requirements pin direct dependencies only; transitive packages come from PyPI.
-          python -m pip install -r ../pokeldn/requirements.txt
+          # requirements.txt uses editable paths relative to the pokeldn checkout (./vendor/LDN).
+          python -m pip install -r requirements.txt
 
       - name: English template still matches the checkout
         run: python ../pokeldn/scripts/extract_strings.py --check
