@@ -1,0 +1,50 @@
+{
+  "pokeldn": {
+    "version": "0.65.2",
+    "commit": "2bee2a1e0209062f39de8458fbd12b2965391094",
+    "api": "1.13",
+    "checked": "2026-11-14",
+    "english_template": {
+      "path": "pokeldn/app/data/strings.en.toml",
+      "sha256": "93a3349a64d609880bd2974c8cb8fced8d4ab1bf2d55c0db649fdd4855c10052",
+      "git_blob": "c1f161d90416c81f2de983bee5d09f1a7e48c978",
+      "bytes": 150354,
+      "strings": 1945
+    }
+  },
+  "pkhex": {
+    "commit": "c758bac1082878eb2e439be1cd3b5cdfc26b5e04",
+    "date": "2026-11-13",
+    "resources": {
+      "species": 1026,
+      "moves": 921,
+      "abilities": 311,
+      "items": 2595,
+      "natures": 25,
+      "types": 19,
+      "forms": 354,
+      "ribbons": 164,
+      "games": 47
+    }
+  },
+  "reference_pack": {
+    "repository": "https://github.com/jimmyorz/pokeldn-plugins-zhTW",
+    "commit": "cfb4840cdaeae30a8e27d2f00e226bcc35b18848",
+    "version": "1.1.18",
+    "locale": "zh-TW"
+  },
+  "counts": {
+    "strings": 1945,
+    "messages": 1793,
+    "help": 2950,
+    "terms": 114,
+    "templates": 68
+  },
+  "package": {
+    "version": "1.0.0",
+    "file": "packages/pokeldn-zh-Hans-1.0.0.pokeplugin",
+    "bytes": 368590,
+    "sha256": "04e3419890119e9b05255ec86a95fa21f68b6b95faa8d45c7eeb06557b128eae",
+    "signature": "KLL4-P37J-BMMU-PGRS"
+  }
+}

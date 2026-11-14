@@ -1,0 +1,114 @@
+{"key": "Pokemon", "en": "Pokemon", "zh_TW": "寶可夢", "seed": "宝可梦", "zh_Hans": "宝可梦", "status": "reviewed", "notes": ""}
+{"key": "pokemon", "en": "pokemon", "zh_TW": "寶可夢", "seed": "宝可梦", "zh_Hans": "宝可梦", "status": "reviewed", "notes": ""}
+{"key": "shiny", "en": "shiny", "zh_TW": "異色", "seed": "异色", "zh_Hans": "异色", "status": "reviewed", "notes": ""}
+{"key": "Not shiny", "en": "Not shiny", "zh_TW": "非異色", "seed": "非异色", "zh_Hans": "非异色", "status": "reviewed", "notes": ""}
+{"key": "Square shiny", "en": "Square shiny", "zh_TW": "方塊異色", "seed": "方块异色", "zh_Hans": "方块异色", "status": "reviewed", "notes": ""}
+{"key": "Star shiny", "en": "Star shiny", "zh_TW": "星星異色", "seed": "星星异色", "zh_Hans": "星星异色", "status": "reviewed", "notes": ""}
+{"key": "Species", "en": "Species", "zh_TW": "寶可夢種類", "seed": "宝可梦种类", "zh_Hans": "种类", "status": "reviewed", "notes": ""}
+{"key": "Form", "en": "Form", "zh_TW": "形態", "seed": "形态", "zh_Hans": "形态", "status": "reviewed", "notes": ""}
+{"key": "Hidden Ability", "en": "Hidden Ability", "zh_TW": "隱藏特性", "seed": "隐藏特性", "zh_Hans": "隐藏特性", "status": "reviewed", "notes": ""}
+{"key": "Hidden ability", "en": "Hidden ability", "zh_TW": "隱藏特性", "seed": "隐藏特性", "zh_Hans": "隐藏特性", "status": "reviewed", "notes": ""}
+{"key": "Held item", "en": "Held item", "zh_TW": "攜帶道具", "seed": "携带道具", "zh_Hans": "携带道具", "status": "reviewed", "notes": ""}
+{"key": "Moves", "en": "Moves", "zh_TW": "招式", "seed": "招式", "zh_Hans": "招式", "status": "reviewed", "notes": ""}
+{"key": "Items", "en": "Items", "zh_TW": "道具", "seed": "道具", "zh_Hans": "道具", "status": "reviewed", "notes": ""}
+{"key": "egg", "en": "egg", "zh_TW": "蛋", "seed": "蛋", "zh_Hans": "蛋", "status": "reviewed", "notes": ""}
+{"key": "Gender", "en": "Gender", "zh_TW": "性別", "seed": "性别", "zh_Hans": "性别", "status": "reviewed", "notes": ""}
+{"key": "Male", "en": "Male", "zh_TW": "雄性", "seed": "雄性", "zh_Hans": "雄性", "status": "reviewed", "notes": ""}
+{"key": "Female", "en": "Female", "zh_TW": "雌性", "seed": "雌性", "zh_Hans": "雌性", "status": "reviewed", "notes": ""}
+{"key": "Genderless", "en": "Genderless", "zh_TW": "無性別", "seed": "无性别", "zh_Hans": "无性别", "status": "reviewed", "notes": ""}
+{"key": "Effort levels", "en": "Effort levels", "zh_TW": "奮鬥等級", "seed": "奋斗等级", "zh_Hans": "奋斗等级", "status": "reviewed", "notes": ""}
+{"key": "IVs", "en": "IVs", "zh_TW": "個體值（IV）", "seed": "个体值（IV）", "zh_Hans": "个体值（IV）", "status": "reviewed", "notes": ""}
+{"key": "EVs", "en": "EVs", "zh_TW": "努力值（EV）", "seed": "努力值（EV）", "zh_Hans": "努力值（EV）", "status": "reviewed", "notes": ""}
+{"key": "AVs", "en": "AVs", "zh_TW": "覺醒值（AV）", "seed": "觉醒值（AV）", "zh_Hans": "觉醒值（AV）", "status": "reviewed", "notes": ""}
+{"key": "SpA", "en": "SpA", "zh_TW": "特攻", "seed": "特攻", "zh_Hans": "特攻", "status": "reviewed", "notes": ""}
+{"key": "SpD", "en": "SpD", "zh_TW": "特防", "seed": "特防", "zh_Hans": "特防", "status": "reviewed", "notes": ""}
+{"key": "Spe", "en": "Spe", "zh_TW": "速度", "seed": "速度", "zh_Hans": "速度", "status": "reviewed", "notes": ""}
+{"key": "level", "en": "level", "zh_TW": "等級", "seed": "等级", "zh_Hans": "等级", "status": "reviewed", "notes": ""}
+{"key": "OT", "en": "OT", "zh_TW": "初訓家", "seed": "初训家", "zh_Hans": "初训家", "status": "reviewed", "notes": ""}
+{"key": "Secret ID", "en": "Secret ID", "zh_TW": "裏 ID（SID）", "seed": "里 ID（SID）", "zh_Hans": "里 ID（SID）", "status": "reviewed", "notes": ""}
+{"key": "Nickname", "en": "Nickname", "zh_TW": "暱稱", "seed": "暱称", "zh_Hans": "昵称", "status": "reviewed", "notes": ""}
+{"key": "Pokedex", "en": "Pokedex", "zh_TW": "寶可夢圖鑑", "seed": "宝可梦图鉴", "zh_Hans": "宝可梦图鉴", "status": "reviewed", "notes": ""}
+{"key": "National Pokedex", "en": "National Pokedex", "zh_TW": "全國圖鑑", "seed": "全国图鉴", "zh_Hans": "全国图鉴", "status": "reviewed", "notes": ""}
+{"key": "Gigantamax", "en": "Gigantamax", "zh_TW": "超極巨化", "seed": "超极巨化", "zh_Hans": "超极巨化", "status": "reviewed", "notes": ""}
+{"key": "can Gigantamax", "en": "can Gigantamax", "zh_TW": "可超極巨化", "seed": "可超极巨化", "zh_Hans": "可超极巨化", "status": "reviewed", "notes": ""}
+{"key": "Dynamax Level", "en": "Dynamax Level", "zh_TW": "極巨化等級", "seed": "极巨化等级", "zh_Hans": "极巨化等级", "status": "reviewed", "notes": ""}
+{"key": "Dynamax level", "en": "Dynamax level", "zh_TW": "極巨化等級", "seed": "极巨化等级", "zh_Hans": "极巨化等级", "status": "reviewed", "notes": ""}
+{"key": "Max Raid", "en": "Max Raid", "zh_TW": "極巨團體戰", "seed": "极巨团体战", "zh_Hans": "极巨团体战", "status": "reviewed", "notes": ""}
+{"key": "Tera Raid", "en": "Tera Raid", "zh_TW": "太晶團體戰", "seed": "太晶团体战", "zh_Hans": "太晶团体战", "status": "reviewed", "notes": ""}
+{"key": "Tera Raid Battle", "en": "Tera Raid Battle", "zh_TW": "太晶團體戰", "seed": "太晶团体战", "zh_Hans": "太晶团体战", "status": "reviewed", "notes": ""}
+{"key": "Dynamax Adventure", "en": "Dynamax Adventure", "zh_TW": "極巨大冒險", "seed": "极巨大冒险", "zh_Hans": "极巨大冒险", "status": "reviewed", "notes": ""}
+{"key": "Max Lair", "en": "Max Lair", "zh_TW": "極巨巢穴", "seed": "极巨巢穴", "zh_Hans": "极巨巢穴", "status": "reviewed", "notes": ""}
+{"key": "Mystery Gift", "en": "Mystery Gift", "zh_TW": "神秘禮物", "seed": "神秘礼物", "zh_Hans": "神秘礼物", "status": "reviewed", "notes": ""}
+{"key": "Wonder Card", "en": "Wonder Card", "zh_TW": "神秘卡片", "seed": "神秘卡片", "zh_Hans": "神秘卡片", "status": "reviewed", "notes": ""}
+{"key": "Wonder Cards", "en": "Wonder Cards", "zh_TW": "神秘卡片", "seed": "神秘卡片", "zh_Hans": "神秘卡片", "status": "reviewed", "notes": ""}
+{"key": "Wonder News", "en": "Wonder News", "zh_TW": "神秘新聞", "seed": "神秘新闻", "zh_Hans": "神秘新闻", "status": "reviewed", "notes": ""}
+{"key": "Link Trade", "en": "Link Trade", "zh_TW": "連線交換", "seed": "连接交换", "zh_Hans": "连接交换", "status": "reviewed", "notes": ""}
+{"key": "Link Code", "en": "Link Code", "zh_TW": "連線密碼", "seed": "连接密码", "zh_Hans": "连接密码", "status": "reviewed", "notes": ""}
+{"key": "Union Circle", "en": "Union Circle", "zh_TW": "集友圈", "seed": "集友圈", "zh_Hans": "集友圈", "status": "reviewed", "notes": ""}
+{"key": "Union Room", "en": "Union Room", "zh_TW": "聯盟交誼廳", "seed": "联盟交谊厅", "zh_Hans": "联盟交谊厅", "status": "reviewed", "notes": ""}
+{"key": "Poke Portal", "en": "Poke Portal", "zh_TW": "寶可入口站", "seed": "宝可入口站", "zh_Hans": "宝可入口站", "status": "reviewed", "notes": ""}
+{"key": "Blueberry Quests", "en": "Blueberry Quests", "zh_TW": "藍樂活任務", "seed": "蓝乐活任务", "zh_Hans": "蓝乐活任务", "status": "reviewed", "notes": ""}
+{"key": "Snacksworth", "en": "Snacksworth", "zh_TW": "點心大叔", "seed": "点心大叔", "zh_Hans": "点心大叔", "status": "reviewed", "notes": ""}
+{"key": "Tera Type", "en": "Tera Type", "zh_TW": "太晶屬性", "seed": "太晶属性", "zh_Hans": "太晶属性", "status": "reviewed", "notes": ""}
+{"key": "Tera type", "en": "Tera type", "zh_TW": "太晶屬性", "seed": "太晶属性", "zh_Hans": "太晶属性", "status": "reviewed", "notes": ""}
+{"key": "Tera Orb", "en": "Tera Orb", "zh_TW": "太晶珠", "seed": "太晶珠", "zh_Hans": "太晶珠", "status": "reviewed", "notes": ""}
+{"key": "Terastallize", "en": "Terastallize", "zh_TW": "太晶化", "seed": "太晶化", "zh_Hans": "太晶化", "status": "reviewed", "notes": ""}
+{"key": "Hardy", "en": "Hardy", "zh_TW": "勤奮", "seed": "勤奋", "zh_Hans": "勤奋", "status": "reviewed", "notes": ""}
+{"key": "Docile", "en": "Docile", "zh_TW": "坦率", "seed": "坦率", "zh_Hans": "坦率", "status": "reviewed", "notes": ""}
+{"key": "Bashful", "en": "Bashful", "zh_TW": "害羞", "seed": "害羞", "zh_Hans": "害羞", "status": "reviewed", "notes": ""}
+{"key": "Quirky", "en": "Quirky", "zh_TW": "浮躁", "seed": "浮躁", "zh_Hans": "浮躁", "status": "reviewed", "notes": ""}
+{"key": "FireRed", "en": "FireRed", "zh_TW": "火紅", "seed": "火红", "zh_Hans": "火红", "status": "reviewed", "notes": ""}
+{"key": "LeafGreen", "en": "LeafGreen", "zh_TW": "葉綠", "seed": "叶绿", "zh_Hans": "叶绿", "status": "reviewed", "notes": ""}
+{"key": "FireRed & LeafGreen", "en": "FireRed & LeafGreen", "zh_TW": "火紅／葉綠", "seed": "火红／叶绿", "zh_Hans": "火红／叶绿", "status": "reviewed", "notes": ""}
+{"key": "Ruby", "en": "Ruby", "zh_TW": "紅寶石", "seed": "红宝石", "zh_Hans": "红宝石", "status": "reviewed", "notes": ""}
+{"key": "Sapphire", "en": "Sapphire", "zh_TW": "藍寶石", "seed": "蓝宝石", "zh_Hans": "蓝宝石", "status": "reviewed", "notes": ""}
+{"key": "Emerald", "en": "Emerald", "zh_TW": "綠寶石", "seed": "绿宝石", "zh_Hans": "绿宝石", "status": "reviewed", "notes": ""}
+{"key": "Sword and Shield", "en": "Sword and Shield", "zh_TW": "劍／盾", "seed": "剑／盾", "zh_Hans": "剑／盾", "status": "reviewed", "notes": ""}
+{"key": "Sword/Shield", "en": "Sword/Shield", "zh_TW": "劍／盾", "seed": "剑／盾", "zh_Hans": "剑／盾", "status": "reviewed", "notes": ""}
+{"key": "Sword & Shield", "en": "Sword & Shield", "zh_TW": "劍／盾", "seed": "剑／盾", "zh_Hans": "剑／盾", "status": "reviewed", "notes": ""}
+{"key": "Brilliant Diamond", "en": "Brilliant Diamond", "zh_TW": "晶燦鑽石", "seed": "晶灿钻石", "zh_Hans": "晶灿钻石", "status": "reviewed", "notes": ""}
+{"key": "Shining Pearl", "en": "Shining Pearl", "zh_TW": "明亮珍珠", "seed": "明亮珍珠", "zh_Hans": "明亮珍珠", "status": "reviewed", "notes": ""}
+{"key": "Brilliant Diamond & Shining Pearl", "en": "Brilliant Diamond & Shining Pearl", "zh_TW": "晶燦鑽石／明亮珍珠", "seed": "晶灿钻石／明亮珍珠", "zh_Hans": "晶灿钻石／明亮珍珠", "status": "reviewed", "notes": ""}
+{"key": "Scarlet & Violet", "en": "Scarlet & Violet", "zh_TW": "朱／紫", "seed": "朱／紫", "zh_Hans": "朱／紫", "status": "reviewed", "notes": ""}
+{"key": "Legends Arceus", "en": "Legends Arceus", "zh_TW": "傳說 阿爾宙斯", "seed": "传说 阿尔宙斯", "zh_Hans": "传说 阿尔宙斯", "status": "reviewed", "notes": ""}
+{"key": "Legends: Arceus", "en": "Legends: Arceus", "zh_TW": "傳說 阿爾宙斯", "seed": "传说 阿尔宙斯", "zh_Hans": "传说 阿尔宙斯", "status": "reviewed", "notes": ""}
+{"key": "Legends Z-A", "en": "Legends Z-A", "zh_TW": "傳說 Z-A", "seed": "传说 Z-A", "zh_Hans": "传说 Z-A", "status": "reviewed", "notes": ""}
+{"key": "Legends: Z-A", "en": "Legends: Z-A", "zh_TW": "傳說 Z-A", "seed": "传说 Z-A", "zh_Hans": "传说 Z-A", "status": "reviewed", "notes": ""}
+{"key": "Let's Go Pikachu & Eevee", "en": "Let's Go Pikachu & Eevee", "zh_TW": "Let's Go！皮卡丘／伊布", "seed": "Let's Go！皮卡丘／伊布", "zh_Hans": "Let's Go！皮卡丘／伊布", "status": "reviewed", "notes": ""}
+{"key": "Paldea", "en": "Paldea", "zh_TW": "帕底亞", "seed": "帕底亚", "zh_Hans": "帕底亚", "status": "reviewed", "notes": ""}
+{"key": "Kitakami", "en": "Kitakami", "zh_TW": "北上鄉", "seed": "北上乡", "zh_Hans": "北上乡", "status": "reviewed", "notes": ""}
+{"key": "Blueberry Academy", "en": "Blueberry Academy", "zh_TW": "藍莓學園", "seed": "蓝莓学园", "zh_Hans": "蓝莓学园", "status": "reviewed", "notes": ""}
+{"key": "English", "en": "English", "zh_TW": "英文", "seed": "英文", "zh_Hans": "英文", "status": "reviewed", "notes": ""}
+{"key": "French", "en": "French", "zh_TW": "法文", "seed": "法文", "zh_Hans": "法文", "status": "reviewed", "notes": ""}
+{"key": "German", "en": "German", "zh_TW": "德文", "seed": "德文", "zh_Hans": "德文", "status": "reviewed", "notes": ""}
+{"key": "Italian", "en": "Italian", "zh_TW": "義大利文", "seed": "义大利文", "zh_Hans": "意大利文", "status": "reviewed", "notes": ""}
+{"key": "Spanish", "en": "Spanish", "zh_TW": "西班牙文", "seed": "西班牙文", "zh_Hans": "西班牙文", "status": "reviewed", "notes": ""}
+{"key": "Japanese", "en": "Japanese", "zh_TW": "日文", "seed": "日文", "zh_Hans": "日文", "status": "reviewed", "notes": ""}
+{"key": "Korean", "en": "Korean", "zh_TW": "韓文", "seed": "韩文", "zh_Hans": "韩文", "status": "reviewed", "notes": ""}
+{"key": "Simplified Chinese", "en": "Simplified Chinese", "zh_TW": "簡體中文", "seed": "简体中文", "zh_Hans": "简体中文", "status": "reviewed", "notes": ""}
+{"key": "Traditional Chinese", "en": "Traditional Chinese", "zh_TW": "繁體中文", "seed": "繁体中文", "zh_Hans": "繁体中文", "status": "reviewed", "notes": ""}
+{"key": "Jumbo mark", "en": "Jumbo mark", "zh_TW": "大個子之證", "seed": "大个子之证", "zh_Hans": "大个子之证", "status": "reviewed", "notes": ""}
+{"key": "Mini mark", "en": "Mini mark", "zh_TW": "小不點之證", "seed": "小不点之证", "zh_Hans": "小不点之证", "status": "reviewed", "notes": ""}
+{"key": "Mightiest mark", "en": "Mightiest mark", "zh_TW": "最強之證", "seed": "最强之证", "zh_Hans": "最强之证", "status": "reviewed", "notes": ""}
+{"key": "Jumbo", "en": "Jumbo", "zh_TW": "大個子", "seed": "大个子", "zh_Hans": "大个子", "status": "reviewed", "notes": ""}
+{"key": "Mini", "en": "Mini", "zh_TW": "小不點", "seed": "小不点", "zh_Hans": "小不点", "status": "reviewed", "notes": ""}
+{"key": "Lowest overall bulk", "en": "Lowest overall bulk", "zh_TW": "整體耐久最低", "seed": "整体耐久最低", "zh_Hans": "整体耐久最低", "status": "reviewed", "notes": ""}
+{"key": "Lowest physical bulk", "en": "Lowest physical bulk", "zh_TW": "物理耐久最低", "seed": "物理耐久最低", "zh_Hans": "物理耐久最低", "status": "reviewed", "notes": ""}
+{"key": "Lowest special bulk", "en": "Lowest special bulk", "zh_TW": "特殊耐久最低", "seed": "特殊耐久最低", "zh_Hans": "特殊耐久最低", "status": "reviewed", "notes": ""}
+{"key": "Weakest offense", "en": "Weakest offense", "zh_TW": "輸出最低", "seed": "输出最低", "zh_Hans": "攻击能力最低", "status": "reviewed", "notes": ""}
+{"key": "Highest total stats", "en": "Highest total stats", "zh_TW": "能力值總和最高", "seed": "能力值总和最高", "zh_Hans": "能力值总和最高", "status": "reviewed", "notes": ""}
+{"key": "Most desired rewards", "en": "Most desired rewards", "zh_TW": "優先獎勵", "seed": "优先奖励", "zh_Hans": "最想要的奖励", "status": "reviewed", "notes": ""}
+{"key": "Standard", "en": "Standard", "zh_TW": "一般", "seed": "一般", "zh_Hans": "标准", "status": "reviewed", "notes": ""}
+{"key": "Wild battle", "en": "Wild battle", "zh_TW": "野生寶可夢對戰", "seed": "野生宝可梦对战", "zh_Hans": "野生宝可梦对战", "status": "reviewed", "notes": ""}
+{"key": "Physical", "en": "Physical", "zh_TW": "物理", "seed": "物理", "zh_Hans": "物理", "status": "reviewed", "notes": ""}
+{"key": "Special", "en": "Special", "zh_TW": "特殊", "seed": "特殊", "zh_Hans": "特殊", "status": "reviewed", "notes": ""}
+{"key": "Status", "en": "Status", "zh_TW": "變化", "seed": "变化", "zh_Hans": "变化", "status": "reviewed", "notes": ""}
+{"key": "Legal", "en": "Legal", "zh_TW": "合法", "seed": "合法", "zh_Hans": "合法", "status": "reviewed", "notes": ""}
+{"key": "Illegal", "en": "Illegal", "zh_TW": "不合法", "seed": "不合法", "zh_Hans": "不合法", "status": "reviewed", "notes": ""}
+{"key": "Battle Points", "en": "Battle Points", "zh_TW": "對戰點數", "seed": "对战点数", "zh_Hans": "对战点数", "status": "reviewed", "notes": ""}
+{"key": "HP remaining", "en": "HP remaining", "zh_TW": "剩餘 HP", "seed": "剩余 HP", "zh_Hans": "剩余 HP", "status": "reviewed", "notes": ""}
+{"key": "alpha", "en": "alpha", "zh_TW": "頭目", "seed": "头目", "zh_Hans": "头目", "status": "reviewed", "notes": ""}
+{"key": "Wild Encounter", "en": "Wild Encounter", "zh_TW": "野生遭遇", "seed": "野生遭遇", "zh_Hans": "野生遭遇", "status": "reviewed", "notes": ""}
+{"key": "Static Encounter", "en": "Static Encounter", "zh_TW": "固定遭遇", "seed": "固定遭遇", "zh_Hans": "固定遭遇", "status": "reviewed", "notes": ""}
+{"key": "In-game Trade", "en": "In-game Trade", "zh_TW": "遊戲內交換", "seed": "游戏内交换", "zh_Hans": "游戏内交换", "status": "reviewed", "notes": ""}
+{"key": "Event Gift", "en": "Event Gift", "zh_TW": "配信禮物", "seed": "配信礼物", "zh_Hans": "配信礼物", "status": "reviewed", "notes": ""}

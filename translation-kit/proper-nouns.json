@@ -1,0 +1,24 @@
+{
+  "policy": "专有名词一律采用 PKHeX 的简体中文；本语言包不复制、不改写这些名称。",
+  "runtime": "pokeldn 在 locale=zh-Hans 时由 services/pkhex 向 PKHeX 查询名称，按 gui/localization.py 的 DisplayService 显示；合法性报告同样如此。",
+  "sources": {
+    "species": "PKHeX.Core/Resources/text/other/zh-Hans/text_Species_zh-Hans.txt",
+    "moves": "PKHeX.Core/Resources/text/other/zh-Hans/text_Moves_zh-Hans.txt",
+    "abilities": "PKHeX.Core/Resources/text/other/zh-Hans/text_Abilities_zh-Hans.txt",
+    "natures": "PKHeX.Core/Resources/text/other/zh-Hans/text_Natures_zh-Hans.txt",
+    "types": "PKHeX.Core/Resources/text/other/zh-Hans/text_Types_zh-Hans.txt",
+    "forms": "PKHeX.Core/Resources/text/other/zh-Hans/text_Forms_zh-Hans.txt",
+    "ribbons": "PKHeX.Core/Resources/text/other/zh-Hans/text_Ribbons_zh-Hans.txt",
+    "games": "PKHeX.Core/Resources/text/other/zh-Hans/text_Games_zh-Hans.txt",
+    "items": "PKHeX.Core/Resources/text/items/text_Items_zh-Hans.txt",
+    "balls": "PKHeX 由道具名派生（精灵球为道具编号），无需单独表",
+    "locations": "PKHeX.Core/Resources/text/locations/gen*/text_*_zh-Hans.txt",
+    "program_messages": "PKHeX.Core/Resources/text/program/MessageStrings_zh-Hans.txt"
+  },
+  "rules": [
+    "不得把上述文件复制进本仓库或 .pokeplugin。",
+    "不得为名称自造译名；界面里出现名称时交给 PKHeX 查询。",
+    "术语表只收录机制词（异色、头目、个体值等），名称类不收录。"
+  ],
+  "pkhex_commit": "c758bac1082878eb2e439be1cd3b5cdfc26b5e04"
+}
