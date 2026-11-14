@@ -400,7 +400,7 @@ $env:POKELDN_DATA = "$PWD\work\verify-data"
 | --- | --- | --- |
 | Python | 系统 3.10；DSH 自带 3.12 | pokeldn 要求 3.13；本地只做 TOML 层工作 |
 | 依赖安装 | PyPI、raw.githubusercontent 均被阻断（仅 git 协议可用） | 无法 `pip install`；官方脚本留给 CI |
-| pokeldn 运行 | 本机已有安装版（`C:\Users\Shuai\Desktop\pokeldn`） | 可做界面观感检查，但不能跑源码校验 |
+| pokeldn 运行 | 本机已有安装版（路径略） | 可做界面观感检查，但不能跑源码校验 |
 | 兼容层 | `tools/pylib`（`tomllib` 垫片 + 第三方库占位） | **仅工具用**，不参与打包、不进入仓库发布物 |
 | 繁简转换 | 无 OpenCC wheel，改用其词典自实现 t2s | 结果已量化（§4.3），足够做种子 |
 

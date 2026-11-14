@@ -120,6 +120,11 @@ $env:POKELDN_PLUGINS = "$PWD\language-pack"
 - 请遵守所在地区法律及游戏服务条款；不要将本包用于商业、宣传、品牌活动或神秘礼物配信。
 - 本包按“现状”提供，不附带任何明示或暗示的担保。
 
+## 安全
+
+语言包不含可执行代码；发布包使用 Ed25519 签名（指纹 `KLL4-P37J-BMMU-PGRS`）。
+私钥保管、漏洞报告与已知边界见 [SECURITY.md](SECURITY.md)。
+
 ## 授权与来源
 
 - 本语言包（翻译文本、脚本、文档）依 **AGPL-3.0-or-later** 提供，完整条款见 [LICENSE](LICENSE)。
