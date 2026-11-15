@@ -87,13 +87,14 @@ $env:POKELDN_PLUGINS = "$PWD\language-pack"
 | 项目 | 内容 |
 | --- | --- |
 | 对应 pokeldn | 0.65.2 |
-| 语言包版本 | 1.0.0 |
+| 语言包版本 | 1.0.1 |
+| 作者 | DeepSeek（AI） |
 | 语系 | `zh-Hans` |
 | 插件 ID | `community-zh-hans` |
 | Plugins API | 1.13 |
 | 最低 pokeldn | 0.57.0 |
-| 包文件 | `packages/pokeldn-zh-Hans-1.0.0.pokeplugin`（24 文件，368,590 字节） |
-| SHA-256 | `04e3419890119e9b05255ec86a95fa21f68b6b95faa8d45c7eeb06557b128eae` |
+| 包文件 | `packages/pokeldn-zh-Hans-1.0.1.pokeplugin`（24 文件，368,586 字节） |
+| SHA-256 | `526be83aa0840010bd8c12a0781393b16505b572a10895ec2723d7e24818718e` |
 | 签名指纹 | `KLL4-P37J-BMMU-PGRS`（Ed25519） |
 
 ## 致谢

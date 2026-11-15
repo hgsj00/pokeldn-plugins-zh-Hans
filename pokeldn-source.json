@@ -6,13 +6,13 @@
     {
       "id": "community-zh-hans",
       "name": "简体中文语言包",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "api": "1.13",
       "description": "pokeldn 简体中文语言包，术语对齐宝可梦官方简中与 PKHeX 简体中文。",
-      "author": "pokeldn 社区",
-      "download": "https://raw.githubusercontent.com/hgsj00/pokeldn-plugins-zh-Hans/main/packages/pokeldn-zh-Hans-1.0.0.pokeplugin",
-      "sha256": "04e3419890119e9b05255ec86a95fa21f68b6b95faa8d45c7eeb06557b128eae",
-      "size": 368590,
+      "author": "DeepSeek",
+      "download": "https://raw.githubusercontent.com/hgsj00/pokeldn-plugins-zh-Hans/main/packages/pokeldn-zh-Hans-1.0.1.pokeplugin",
+      "sha256": "526be83aa0840010bd8c12a0781393b16505b572a10895ec2723d7e24818718e",
+      "size": 368586,
       "homepage": "https://github.com/hgsj00/pokeldn-plugins-zh-Hans",
       "icon": "https://raw.githubusercontent.com/hgsj00/pokeldn-plugins-zh-Hans/main/language-pack/icon.png"
     }

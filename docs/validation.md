@@ -6,8 +6,8 @@
 
 | 项目 | 结果 |
 | --- | --- |
-| 阶段 | 1.0.0 已签名，等待发布与 0.65.2 复测 |
-| 语言包版本 | 1.0.0（已签名） |
+| 阶段 | 1.0.1 已签名，等待 0.65.2 复测 |
+| 语言包版本 | 1.0.1（已签名） |
 | 基准 pokeldn | 0.65.2（`2bee2a1`），Plugins API 1.13 |
 | 本地实测客户端 | 0.63.1（Windows），接受 API 1.13 |
 | 英文模板 | 1,945 条；SHA-256 `93a3349a…0052` |
@@ -46,7 +46,7 @@
 | 2026-11-14 | 加载器读取（`pokeldn.plugins._read_folder`） | id/locale/api 正确；2,950 help；`compatibility=ok` |
 | 2026-11-14 | `plugins.discover()` + `i18n.select()` | 语言列表出现「简体中文」；`locale()=zh-Hans` |
 | 2026-11-14 | PKHeX helper `display_language=zh-Hans` | 妙蛙种子、喷火龙、杰尼龟、阿柏蛇… 官方简中 |
-| 2026-11-14 | 打包（已签名 1.0.0） | 24 文件（23 + `plugin.sig`），368,590 字节；SHA-256 `04e34198…8eae`；指纹 `KLL4-P37J-BMMU-PGRS` |
+| 2026-11-15 | 打包（已签名 1.0.1） | 24 文件（23 + `plugin.sig`），368,586 字节；SHA-256 `526be83a…718e`；指纹 `KLL4-P37J-BMMU-PGRS` |
 | 2026-11-14 | 已安装 0.63.1 + 隔离 `POKELDN_DATA` 启动 | 界面完整简体中文；截图见下 |
 
 ![简体中文界面](images/zh-hans-main.png)

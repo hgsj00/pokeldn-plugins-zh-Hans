@@ -54,7 +54,7 @@
 ```toml
 id = "community-zh-hans"
 name = "简体中文"
-version = "1.0.0"
+version = "1.0.1"
 api = "1.13"
 author = "…"
 description = "简体中文语言包，术语对齐 PKHeX 简体中文。"
@@ -351,7 +351,7 @@ python repos/pokeldn/scripts/extract_strings.py --check
 
 ```bash
 python repos/pokeldn/scripts/pack_plugin.py language-pack \
-  -o packages/pokeldn-zh-Hans-1.0.0.pokeplugin --key <私钥>.pem
+  -o packages/pokeldn-zh-Hans-1.0.1.pokeplugin --key <私钥>.pem
 ```
 
 - 验收 ★：9 个文件；签名可验证；包内无 README/docs/私钥；记录指纹与 SHA-256

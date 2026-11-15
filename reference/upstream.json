@@ -41,10 +41,10 @@
     "templates": 68
   },
   "package": {
-    "version": "1.0.0",
-    "file": "packages/pokeldn-zh-Hans-1.0.0.pokeplugin",
-    "bytes": 368590,
-    "sha256": "04e3419890119e9b05255ec86a95fa21f68b6b95faa8d45c7eeb06557b128eae",
+    "version": "1.0.1",
+    "file": "packages/pokeldn-zh-Hans-1.0.1.pokeplugin",
+    "bytes": 368586,
+    "sha256": "526be83aa0840010bd8c12a0781393b16505b572a10895ec2723d7e24818718e",
     "signature": "KLL4-P37J-BMMU-PGRS"
   }
 }

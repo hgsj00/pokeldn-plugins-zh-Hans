@@ -35,7 +35,7 @@ jobs:
           done
 
       - name: Package structure and signature
-        run: python tools/verify_package.py packages/pokeldn-zh-Hans-1.0.0.pokeplugin
+        run: python tools/verify_package.py packages/pokeldn-zh-Hans-1.0.1.pokeplugin
 
       - name: Translation status
         run: python tools/status.py --kit translation-kit --reference reference/strings.en.toml
